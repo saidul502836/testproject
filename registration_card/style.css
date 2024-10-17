@@ -1,3 +1,70 @@
 body{
-    background-color: aquamarine;
+    font-family: arial,sans-serif;
+    background: linear-gradient(135deg, #4b6cb7,#182848);
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+.container{
+    background-color: #fff;
+    padding: 20px 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgb(0,0,0,0.2);
+    width: 350px;
+    margin-bottom: 120px;
+
+}
+.registration-form h2 {
+    text-align: enter;
+    margin-bottom: 20px;
+    color:#333;
+
+}
+.form-group{
+    margin-bottom: 15px;
+}
+.form-group label{
+    display: block;
+    margin-bottom: 5px;
+    color:#555;
+}
+
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group input[type="password"]{
+    width: 100%;
+    padding:8px;
+    border: 1 px solid #ccc;
+    border-radius: 4px;
+}
+.form-group input[type="radio"]{
+    margin-right: 5px;
+
+
+}
+.form-buttons{
+    display: flex;
+    justify-content: space-between;
+    .cancel-btn, .submit-btn{
+        padding: 10px 20px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        font-size: 16px;
+    }
+}
+.cancel-btn{
+    background-color: #f44336;
+    color: white;
+}
+.submit-btn{
+    background-color: #4caf50;
+    color: white;
+}
+.cancel-btn:hover{
+    background-color: #d32f2f;
+}
+.submit-btn:hover{
+    background-color: #388e3c;
 }
